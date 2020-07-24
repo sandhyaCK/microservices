@@ -1,0 +1,18 @@
+package com.bridgelabz.fundoonotes.configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.bridgelabz.fundoonotes.controller.MailController;
+
+
+@Configuration
+public class SpringMailConfiguration {
+	
+	@Bean
+	public MailController getSpringmail() {
+		return new MailController();
+
+	}
+
+}

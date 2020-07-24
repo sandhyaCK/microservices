@@ -1,0 +1,12 @@
+package com.javatpoint.microservices.netflixzuulapigatewayserver;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+@EnableZuulProxy
+public class NetflixZuulApiGatewayServerApplication 
+{
+public static void main(String[] args) 
+{
+SpringApplication.run(NetflixZuulApiGatewayServerApplication.class, args);
+}
+}
